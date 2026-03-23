@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "BMI Bloom",
+    "slug": "bmi-calc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "bmibloom",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f7efe4"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bmibloom.app"
+    },
+    "android": {
+      "package": "com.bmibloom.app",
+      "versionCode": 1,
+      "permissions": [],
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-8522218237638794~9512294675",
+          "iosAppId": "ca-app-pub-8522218237638794~9512294675",
+          "userTrackingUsageDescription": "This identifier will be used to deliver personalized ads to you.",
+          "skAdNetworkItems": []
+        }
+      ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "9f620b35-ccaa-44cb-bdb8-f4e92691069d"
+      }
+    },
+    "owner": "chatgnanam"
+  }
+}
